@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <form action="">
+      <h2>Novell Services Login</h2>
+      <label for="userName">Username: </label>
+      <input type="text" id="userName" required><br><br>
+      <label for="password">Password: </label>
+      <input type="password" id="password" required><br><br>
+      <label for="workCity">City of <br>Employment:</label>
+      <input type="text" id="workCity"><br> <br>
+      <label for="server">Web server:</label>
+      <select name="server" id="server">
+        <option value="" disabled selected>--Choose a server--</option>
+        <option value="">WOW</option>
+        <option value="">LOVE</option>
+        <option value="">YOU</option>
+        <option value="">SIR</option>
+      </select><br> <br>
+      <label for="">Please specify <br>your role:</label>
+      <div>
+        <input type="radio" id="admin" name="role">
+        <label for="admin">Admin</label><br>
+        <input type="radio" id="engineer" name="role">
+        <label for="admin">Engineer</label><br>
+        <input type="radio" id="manager" name="role">
+        <label for="admin">Manager</label><br>
+        <input type="radio" id="guest" name="role">
+        <label for="admin">Guest</label>
+      </div>
+      <br><br>
+      <label for="typo">Single Sign-on <br>to the following:</label><br>
+      <input type="checkbox" name="typo" id="Mail">
+      <label for="Mail">Mail</label><br>
+      <input type="checkbox" name="typo" id="Payroll">
+      <label for="Payroll">Payroll</label><br>
+      <input type="checkbox" name="typo" id="Self-service">
+      <label for="Self-service">Self-service</label>
+      <br><br>
+      <button type="submit">Login</button>
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+</body>
+
+</html>
