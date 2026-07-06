@@ -1,0 +1,42 @@
+
+/* ELEMENT SELECTOR */
+span{
+  color: rgb(13, 217, 61);
+}
+
+a,ul{
+  color: orange;
+}
+
+/* CLASS SELECTOR */
+.hello{
+  color: palevioletred;
+}
+
+.blue{
+  color: blue;
+}
+
+/* ID SELECTOR */
+#nihal{
+  background-color: black;
+  color: pink;
+}
+
+/* DESENDANT COMBINATOR */
+div  p{
+  color: black;
+  background-color: red;
+}
+
+/* CHILD COMBINATOR */
+
+div > p{
+  color:rgb(0, 255, 38);
+}
+
+/* ADJACENT SIBLING */
+p + a{
+  color: rgb(12, 12, 12);
+
+}
