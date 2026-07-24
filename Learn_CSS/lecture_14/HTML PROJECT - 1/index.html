@@ -5,19 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ThreadCo - Wear the Code. Live the Street.</title>
-  <style>
-    table,tr,td,th{
-      border: 1px solid black;
-      border-collapse: collapse;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <header>
     <h1>ThreadCo</h1>
-    <p><em>Wear the Code. Live the Street.</em></p>
+    <!-- <p><em>Wear the Code. Live the Street.</em></p> -->
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -30,79 +25,86 @@
   </header>
 
   <main>
-    <section>
-      <h2>New Drop. Every Friday.</h2>
-      <p>ThreadCo is not just clothing - it is a statement. Born on the streets of Delhi, built for every city in
-        India.<strong>Limited drops. No restocks. Ever.</strong></p>
-      <p>We make streetwear that hits different - 100% cotton, oversized fits, and designs that actually mean something.
-      </p>
-      <a href="">Shop Now</a> &nbsp; &nbsp; &nbsp; &nbsp;
-      <a href=""> View Lookbook</a>
+    <section id="hero">
+      <div class="left-hero">
+        <h2>New Drop.<br> <span id="gradient-text"> Every Friday.</span></h2>
+        <p>ThreadCo is not just clothing - it is a statement. Born on the streets of Delhi, built for every city in
+          India.<strong>Limited drops. No restocks. Ever.</strong></p>
+        <p>We make streetwear that hits different - 100% cotton, oversized fits, and designs that actually mean
+          something.
+        </p>
+        <div id="cta">
+          <a href="" class="btn1">Shop Now</a>
+          <a href="" class="btn2"> View Lookbook</a>
+        </div>
+      </div>
+      <div class="right-hero">
+        <div class="glow orb1"></div>
+        <div class="glow orb2"></div>
+        <img src="IMAGES/img1.jpeg" alt="">
+      </div>
+
     </section>
 
-    <section>
+    <section id="week-drop">
       <h2>This Week's Drop</h2>
       <p>Friday 12:00 PM. Set your alarms. These won't last.</p>
+      <div class="cards">
+        <article>
+          <figure>
+            <img src="IMAGES/img1.jpeg" alt="Oversized Drop Tee Vol.3">
+            <figcaption>Oversized Drop Tee Vol.3</figcaption>
+          </figure>
+          <h3>Oversized Drop Tee Vol.3</h3>
+          <p>Category: T-Shirts</p>
+          <p>Price:<strong> &#8377;799</strong> &nbsp;<s> &#8377; 1199</s></p>
+          <p><mark>33% OFF</mark></p><br><br>
+          <a href="">View Details</a>
+          <button>Add to Cart</button>
+        </article>
+        <article>
+          <figure>
+            <img src="IMAGES/img2.jpeg" alt="Street Hoodie - Olive">
+            <figcaption>Street Hoodie - Olive</figcaption>
+          </figure>
+          <h3>Street Hoodie - Olive</h3>
+          <p>Category: Hoodies</p>
+          <p>Price: &#8377;<strong>1499</strong> &nbsp;<s> &#8377; 1999</s></p>
+          <p><mark>25% OFF</mark></p><br><br>
+          <a href="">View Details</a>
+          <button>Add to Cart</button>
+        </article>
+        <article>
+          <figure>
+            <img src="IMAGES/img3.jpeg" alt="Utility Cargo - Beige">
+            <figcaption>Utility Cargo - Beige</figcaption>
+          </figure>
+          <h3>Utility Cargo - Beige</h3>
+          <p>Category: Cargo Pants</p>
+          <p>Price: &#8377;<strong>1799</strong> &nbsp;<s> &#8377; 2499</s></p>
+          <p><mark>28% OFF</mark></p><br><br>
+          <a href="">View Details</a>
+          <button>Add to Cart</button>
+        </article>
+        <article>
+          <figure>
+            <img src="IMAGES/img4.jpeg" alt="TC 6-Panel Cap">
+            <figcaption>TC 6-Panel Cap</figcaption>
+          </figure>
+          <h3>TC 6-Panel Cap</h3>
+          <p>Category: Caps</p>
+          <p>Price: &#8377;<strong>499</strong> &nbsp;<s> &#8377; 699</s></p>
+          <p><mark>28% OFF</mark></p><br><br>
+          <a href="">View Details</a>
+          <button>Add to Cart</button>
+        </article>
 
-      <article>
-        <figure>
-          <img src="IMAGES/img1.jpeg" alt="Oversized Drop Tee Vol.3">
-          <figcaption>Oversized Drop Tee Vol.3</figcaption>
-        </figure>
-        <h3>Oversized Drop Tee Vol.3</h3>
-        <p>Category: T-Shirts</p>
-        <p>Price: &#8377;<strong>799</strong> &nbsp;<s> &#8377; 1199</s></p>
-        <p><mark>33% OFF</mark></p><br><br>
-        <a href="">View Details</a>
-        <button>Add to Cart</button>
-      </article>
-
-
-      <article>
-        <figure>
-          <img src="IMAGES/img2.jpeg" alt="Street Hoodie - Olive">
-          <figcaption>Street Hoodie - Olive</figcaption>
-        </figure>
-        <h3>Street Hoodie - Olive</h3>
-        <p>Category: Hoodies</p>
-        <p>Price: &#8377;<strong>1499</strong> &nbsp;<s> &#8377; 1999</s></p>
-        <p><mark>25% OFF</mark></p><br><br>
-        <a href="">View Details</a>
-        <button>Add to Cart</button>
-      </article>
-
-      <article>
-        <figure>
-          <img src="IMAGES/img3.jpeg" alt="Utility Cargo - Beige">
-          <figcaption>Utility Cargo - Beige</figcaption>
-        </figure>
-        <h3>Utility Cargo - Beige</h3>
-        <p>Category: Cargo Pants</p>
-        <p>Price: &#8377;<strong>1799</strong> &nbsp;<s> &#8377; 2499</s></p>
-        <p><mark>28% OFF</mark></p><br><br>
-        <a href="">View Details</a>
-        <button>Add to Cart</button>
-      </article>
-
-      <article>
-        <figure>
-          <img src="IMAGES/img4.jpeg" alt="TC 6-Panel Cap">
-          <figcaption>TC 6-Panel Cap</figcaption>
-        </figure>
-        <h3>TC 6-Panel Cap</h3>
-        <p>Category: Caps</p>
-        <p>Price: &#8377;<strong>499</strong> &nbsp;<s> &#8377; 699</s></p>
-        <p><mark>28% OFF</mark></p><br><br>
-        <a href="">View Details</a>
-        <button>Add to Cart</button>
-      </article>
-
-
+      </div>
 
 
     </section>
 
-    <section>
+    <section id="best-sellers">
       <h2>Bestsellers This Month</h2>
       <table>
         <tr>
@@ -116,7 +118,7 @@
           <th>Rating</th>
         </tr>
         <tr>
-          <td>1	</td>
+          <td>1 </td>
           <td>Oversized Drop Tee Vol.3</td>
           <td>T-Shirts</td>
           <td>&#8377; 799</td>
@@ -166,13 +168,13 @@
       <h3>Our Promise</h3>
       <dl>
         <dt>Quality
-          <dd>Every piece is tested for shrinkage, color fastness, and stitching quality before it ships.</dd>
+        <dd>Every piece is tested for shrinkage, color fastness, and stitching quality before it ships.</dd>
         </dt>
         <dt>Sustainability
-          <dd>We use GOTS-certified cotton and minimize packaging waste. Planet first.</dd>
+        <dd>We use GOTS-certified cotton and minimize packaging waste. Planet first.</dd>
         </dt>
         <dt>Community
-          <dd>Every drop supports an independent Indian artist or designer. Style with purpose.</dd>
+        <dd>Every drop supports an independent Indian artist or designer. Style with purpose.</dd>
         </dt>
       </dl>
 
@@ -191,7 +193,8 @@
   <hr>
   <footer>
     <p>&copy; 2025 ThreadCo. All rights reserved. <br>
-    <em>Wear the Code. Live the Street.</em></p>
+      <em>Wear the Code. Live the Street.</em>
+    </p>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
